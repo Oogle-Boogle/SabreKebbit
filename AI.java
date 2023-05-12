@@ -252,7 +252,7 @@ public class AI {
         ClientUI.showAlert(ClientUI.AlertLevel.INFO, "You can join BB Discord to find out more information - <a href=\"https://discord.gg/fX5byan2mJ\">Click here</a> ");
         String msg = "The bot has completed all tasks. Ended session.";
         DefaultUI.setStatus(msg);
-        end();
+        return;
     }
 
     private static void mouseWheelTurnTo(Coordinate Tc) {
