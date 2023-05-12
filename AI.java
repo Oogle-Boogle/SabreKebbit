@@ -186,7 +186,7 @@ public class AI {
 
     /**
      * Bank - If we have Kebbit teeth in inventory - deposit.
-     * If we do not contain axe, knife or teleports back to rellekka, we need to withdraw or end bot.
+     * If we do not contain axe, knife or teleports back to bank, we need to withdraw or end bot.
      */
 
     void bank() {
